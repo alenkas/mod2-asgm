@@ -22,7 +22,7 @@ section {
 }
 
 section div {
-	padding: 30px 10px 5px;
+	padding: 20px 10px 5px;
 	background-color: #999999;
 	border: 1px solid black;
 	position: relative;
@@ -32,7 +32,7 @@ section h4 {
 	font-size: 1.25em;
 	letter-spacing: 1.2px;
 	width: 25%;
-	padding: 5px;
+	padding: 0px 5px;
 	/* Make title border overlap with parent div to make it cuter */
 	margin: -1px -1px 0 0;
 	text-align: center;
@@ -40,6 +40,10 @@ section h4 {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+section p {
+	margin-bottom: 0;
 }
 
 .chicken h4 {
